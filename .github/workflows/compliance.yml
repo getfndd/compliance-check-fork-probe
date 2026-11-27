@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: preset-ai/compliance-check@v1.4.0
+      - uses: preset-ai/compliance-check@v1.4.1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           design-system-id: '00000000-0000-4000-8000-000000000000'
