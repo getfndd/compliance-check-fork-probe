@@ -10,3 +10,5 @@ probe checks.
 
 To run it: fork this repo, change `src/Probe.tsx`, and open a pull request
 against `main`.
+
+No-op probe (PRE-3046): this PR changes only the README.
